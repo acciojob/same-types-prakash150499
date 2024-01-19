@@ -4,10 +4,7 @@ function isSameType(value1, value2) {
     return true;
   }
 
-  // Check if the values are of the same type (excluding NaN)
-  if (typeof value1 !== 'number' || typeof value2 !== 'number') {
-    return false;
-  }
+
 
   // Check if the types are the same for non-NaN values
   return typeof value1 === typeof value2;
